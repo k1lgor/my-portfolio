@@ -43,6 +43,65 @@
     <!-- Compressed Scripts -->
     <script src="js/slides.min.js" type="text/javascript"></script>
 
+    <!-- Contact Pop up button -->
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+    <script>
+      window.formbutton =
+        window.formbutton ||
+        function () {
+          (formbutton.q = formbutton.q || []).push(arguments);
+        };
+      formbutton("create", {
+        action: "https://formspree.io/f/xbjwyqyd",
+        title:
+          "Mail me !" +
+          "<i style='font-size: 50px;" +
+          "position: absolute;" +
+          "right: 0;'>&#x1F4E7;</i>",
+        description: "Drop me a line then drop that mic!",
+        theme: "classic",
+        styles: {
+          color: "#6D6875",
+          button: {
+            backgroundColor: "#e24237",
+            fill: "#ebebeb",
+          },
+          shim: {
+            backgroundColor: "rgba(0,0,0,0)",
+          },
+          title: {
+            fontFamily: "Satisfy",
+            fontSize: "2.4em",
+            backgroundColor: "#1b97f3",
+            textShadow:
+              "3px 3px 0 #6D6875," +
+              "-1px -1px 0 #6D6875," +
+              "1px -1px 0 #6D6875," +
+              "-1px 1px 0 #6D6875," +
+              "1px 1px 0 #6D6875",
+          },
+          modal: {
+            background: "#cccaca",
+          },
+          description: {
+            backgroundColor: "#ebebeb",
+          },
+          input: {
+            backgroundColor: "#ebebeb",
+            boxShadow: "0px 0px 3px rgba(0,0,0,0.1)",
+            border: "1px solid rgba(0,0,0,0.1)",
+          },
+          submitLabel: {
+            marginTop: "18px",
+          },
+          closeButton: {
+            display: "none",
+          },
+        },
+        initiallyVisible: "true",
+      });
+    </script>
+
     <!-- Fonts and Material Icons -->
     <link
       rel="stylesheet"
@@ -196,7 +255,7 @@
             <li><a href="#tech">Tech Stack</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <!-- <li><a href="#contacts">Contacts</a></li> -->
           </ul>
         </div>
         <div class="right">
@@ -549,10 +608,6 @@
                     alt="css"
                   />
                   <img
-                    src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"
-                    alt="sass"
-                  />
-                  <img
                     src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white"
                     alt="markdown"
                   />
@@ -560,8 +615,8 @@
               </p>
               <p class="hero ae-2 margin-bottom-2">
                 <img
-                  src="https://readme-typing-svg.herokuapp.com?size=18&color=E727F7&background=FFEFEC00&vCenter=true&lines=Frameworks"
-                  alt="frameworks"
+                  src="https://readme-typing-svg.herokuapp.com?size=18&color=E727F7&background=FFEFEC00&vCenter=true&lines=Frameworks/Pre-processors"
+                  alt="frameworks-preprocessors"
                 />
                 <br />
                 <span class="opacity-8">
@@ -574,8 +629,29 @@
                     alt="bootstrap"
                   />
                   <img
+                    src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"
+                    alt="sass"
+                  />
+                  <img
                     src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"
                     alt="flask"
+                  />
+                </span>
+              </p>
+              <p class="hero ae-2 margin-bottom-2">
+                <img
+                  src="https://readme-typing-svg.herokuapp.com?size=18&color=ff1bbc&background=FFEFEC00&vCenter=true&lines=CI/CD"
+                  alt="ci-cd"
+                />
+                <br />
+                <span class="opacity-8">
+                  <img
+                    src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"
+                    alt="jenkins"
+                  />
+                  <img
+                    src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"
+                    alt="github-actions"
                   />
                 </span>
               </p>
@@ -1133,7 +1209,7 @@
     </section>
 
     <!-- Contacts -->
-    <section class="slide fade-6 kenBurns" data-name="contacts">
+    <!-- <section class="slide fade-6 kenBurns" data-name="contacts">
       <div class="content">
         <div class="container">
           <div class="wrap">
@@ -1188,7 +1264,7 @@
         class="background"
         style="background-image: url(assets/img/background/contacts.jpeg)"
       ></div>
-    </section>
+    </section> -->
 
     <!-- Loading Progress Bar -->
     <div class="progress-bar blue"></div>
